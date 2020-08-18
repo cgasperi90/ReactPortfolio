@@ -2,6 +2,19 @@
   max-height: 500px;
 }
 body {
-  color: white;
-  background-color: black;
+  color: rgb(143, 143, 143);
+  background-color: rgb(37, 37, 37);
+  font-family: "Roboto Mono", monospace;
+}
+h1 {
+  color: rgb(195, 195, 195);
+}
+.logo {
+  border-radius: 35px;
+  height: 35vmin;
+  border: 1vh solid #232d3622;
+}
+.intro {
+  align-items: center;
+  justify-content: center;
 }

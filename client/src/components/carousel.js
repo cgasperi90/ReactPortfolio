@@ -3,14 +3,14 @@ import React from "react";
 function Carousel() {
     return (
     <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <ol className="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
         </ol>
         <div className="carousel-inner">
             <div className="carousel-item active">
-                <img src="https://via.placeholder.com/200" class="d-block w-100" alt="..." />
+                <img src="https://via.placeholder.com/200" className="d-block w-100" alt="..." />
                 <div className="carousel-caption d-none d-md-block">
                     <h5>First slide label</h5>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -24,7 +24,7 @@ function Carousel() {
                 </div>
             </div>
             <div className="carousel-item">
-                <img src="https://via.placeholder.com/200" class="d-block w-100" alt="..." />
+                <img src="https://via.placeholder.com/200" className="d-block w-100" alt="..." />
                 <div className="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
