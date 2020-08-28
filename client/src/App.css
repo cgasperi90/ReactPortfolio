@@ -14,7 +14,9 @@ h1 {
   height: 35vmin;
   border: 1vh solid #232d3622;
 }
-.intro {
-  align-items: center;
+.intro, p, h1 {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
   justify-content: center;
 }

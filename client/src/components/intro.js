@@ -5,9 +5,11 @@ import logo from "../images/Profile Picture.jpg";
 function Intro() {
     return (
         <div className="intro">
-            <img className="logo" alt="Carlos Gasperi" src={logo} />
+            <div>
+                <img className="logo" alt="Carlos Gasperi" src={logo} />
+            </div>
             <Typical
-            steps={["Carlos Gasperi", 1000]}
+            steps={["Carlos Gasperi", 3000]}
             loop={Infinity}
             wrapper="h1"
             />
